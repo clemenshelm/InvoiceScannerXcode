@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6411E011966BD23002C1FD9 /* PerspectiveCorrection.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6411DFD1966BD23002C1FD9 /* PerspectiveCorrection.mm */; };
+		C6411E021966BD23002C1FD9 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6411E001966BD23002C1FD9 /* UIImage+OpenCV.mm */; };
 		C6AA3336196675AA008D88B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AA3335196675AA008D88B8 /* Foundation.framework */; };
 		C6AA3338196675AA008D88B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AA3337196675AA008D88B8 /* CoreGraphics.framework */; };
 		C6AA333A196675AA008D88B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AA3339196675AA008D88B8 /* UIKit.framework */; };
@@ -23,8 +25,6 @@
 		C6AA3362196675AA008D88B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6AA3360196675AA008D88B8 /* InfoPlist.strings */; };
 		C6AA3364196675AA008D88B8 /* TestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3363196675AA008D88B8 /* TestAppTests.m */; };
 		C6AA336E19667A55008D88B8 /* invoice_easybill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6AA336D19667A55008D88B8 /* invoice_easybill.jpg */; };
-		C6AA337319667A89008D88B8 /* PerspectiveCorrection.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6AA337019667A89008D88B8 /* PerspectiveCorrection.mm */; };
-		C6AA337419667A89008D88B8 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6AA337219667A89008D88B8 /* UIImage+OpenCV.mm */; };
 		D4CC898315D245CCA147E2A5 /* libPods-TestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5A62F2EC8E4456A31FB15C /* libPods-TestApp.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +41,10 @@
 /* Begin PBXFileReference section */
 		8A5A62F2EC8E4456A31FB15C /* libPods-TestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C391B9438C6243288DF19040 /* Pods-TestApp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.xcconfig"; path = "Pods/Pods-TestApp.xcconfig"; sourceTree = "<group>"; };
+		C6411DFD1966BD23002C1FD9 /* PerspectiveCorrection.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PerspectiveCorrection.mm; sourceTree = "<group>"; };
+		C6411DFE1966BD23002C1FD9 /* PerspectiveCorrection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerspectiveCorrection.h; sourceTree = "<group>"; };
+		C6411DFF1966BD23002C1FD9 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		C6411E001966BD23002C1FD9 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
 		C6AA3332196675AA008D88B8 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6AA3335196675AA008D88B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C6AA3337196675AA008D88B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +66,6 @@
 		C6AA3361196675AA008D88B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C6AA3363196675AA008D88B8 /* TestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppTests.m; sourceTree = "<group>"; };
 		C6AA336D19667A55008D88B8 /* invoice_easybill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = invoice_easybill.jpg; path = ../../InvoiceScanner/resources/invoice_easybill.jpg; sourceTree = "<group>"; };
-		C6AA336F19667A89008D88B8 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+OpenCV.h"; path = "../../InvoiceScanner/vendor/OpenMotionCV/UIImage+OpenCV.h"; sourceTree = "<group>"; };
-		C6AA337019667A89008D88B8 /* PerspectiveCorrection.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PerspectiveCorrection.mm; path = ../../InvoiceScanner/vendor/OpenMotionCV/PerspectiveCorrection.mm; sourceTree = "<group>"; };
-		C6AA337119667A89008D88B8 /* PerspectiveCorrection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PerspectiveCorrection.h; path = ../../InvoiceScanner/vendor/OpenMotionCV/PerspectiveCorrection.h; sourceTree = "<group>"; };
-		C6AA337219667A89008D88B8 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "UIImage+OpenCV.mm"; path = "../../InvoiceScanner/vendor/OpenMotionCV/UIImage+OpenCV.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,12 +128,12 @@
 		C6AA333B196675AA008D88B8 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				C6411DFD1966BD23002C1FD9 /* PerspectiveCorrection.mm */,
+				C6411DFE1966BD23002C1FD9 /* PerspectiveCorrection.h */,
+				C6411DFF1966BD23002C1FD9 /* UIImage+OpenCV.h */,
+				C6411E001966BD23002C1FD9 /* UIImage+OpenCV.mm */,
 				C6AA3344196675AA008D88B8 /* AppDelegate.h */,
 				C6AA3345196675AA008D88B8 /* AppDelegate.mm */,
-				C6AA336F19667A89008D88B8 /* UIImage+OpenCV.h */,
-				C6AA337019667A89008D88B8 /* PerspectiveCorrection.mm */,
-				C6AA337119667A89008D88B8 /* PerspectiveCorrection.h */,
-				C6AA337219667A89008D88B8 /* UIImage+OpenCV.mm */,
 				C6AA336D19667A55008D88B8 /* invoice_easybill.jpg */,
 				C6AA3347196675AA008D88B8 /* Main_iPhone.storyboard */,
 				C6AA334A196675AA008D88B8 /* Main_iPad.storyboard */,
@@ -310,9 +310,9 @@
 			files = (
 				C6AA334F196675AA008D88B8 /* ViewController.m in Sources */,
 				C6AA3346196675AA008D88B8 /* AppDelegate.mm in Sources */,
-				C6AA337319667A89008D88B8 /* PerspectiveCorrection.mm in Sources */,
+				C6411E011966BD23002C1FD9 /* PerspectiveCorrection.mm in Sources */,
 				C6AA3342196675AA008D88B8 /* main.m in Sources */,
-				C6AA337419667A89008D88B8 /* UIImage+OpenCV.mm in Sources */,
+				C6411E021966BD23002C1FD9 /* UIImage+OpenCV.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
